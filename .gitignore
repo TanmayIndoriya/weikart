@@ -1,0 +1,80 @@
+# ==============================
+# Environment variables & secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Maven & Java build artifacts
+# ==============================
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Keep Maven Wrapper scripts and configuration
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# IDE: VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# IDE: IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==============================
+# IDE: Eclipse / Spring Tool Suite
+# ==============================
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.factorypath
+.apt_generated/
+
+# ==============================
+# IDE: NetBeans
+# ==============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+*~
+
+# ==============================
+# Logs & temporary files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+
+# ==============================
+# Test reports
+# ==============================
+surefire-reports/
+failsafe-reports/
+
+# ==============================
+# Local application configuration
+# ==============================
+application-local.yml
+application-local.yaml
