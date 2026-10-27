@@ -1,0 +1,18 @@
+package com.tanmay.weikart.role;
+
+import jakarta.persistence.*;
+import lombok.Builder;
+import lombok.Data;
+
+@Entity
+@Table(name = "roles")
+@Data
+public class Role {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer roleId;
+    @Column(unique = true, nullable = false,length = 20)
+    private String roleName;
+    private boolean active = true;
+
+}

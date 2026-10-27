@@ -1,0 +1,8 @@
+package com.tanmay.weikart.order;
+
+public enum OrderPaymentStatus {
+    PAYMENT_PENDING,
+    PAYMENT_COMPLETED,
+    PAYMENT_REFUNDED,
+    PAYMENT_CANCELLED
+}
